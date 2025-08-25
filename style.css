@@ -1,0 +1,682 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: auto;
+    /* padding: 2px; */
+    background-image: url(./image/mainBackImg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow-y: scroll; */
+}
+.btn{
+    width: 100%;
+    padding: 0.6rem 0.8rem;
+    /* background-color: var(--blackColor); */
+    /* border: none; */
+    border: 1px solid cadetblue;
+    border-radius: 0.2rem;
+    box-shadow: 2px 2px 6px grey;
+    /* color: var(--whiteColor); */
+}
+.btn:active{
+    box-shadow: none;
+    background-color: cadetblue;
+    transform: scale(0.95);
+    transition: all .2s ease-in-out;
+}
+.txtBox{
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 0.3rem 0.4rem;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* ***************ScrollBar******************* */
+/* width */
+::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 0.5rem;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--bkColor); 
+  border-radius: 0.5rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ioColor);
+   
+}
+
+/* ***************ScrollBar Closed******************* */
+
+#calScr{
+    width: 98%;
+    margin: 0 3px;
+    text-align: right;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.mainFrame{
+    margin-top: 3rem;
+    min-width: 357px;
+    height:660px;
+    padding: 5px;
+    background: var(--transparentColor); 
+    backdrop-filter: blur(80px);
+    -webkit-backdrop-filter: blur(80px);
+    /* background-image: url(./image/frameBackImg.jpg);
+    background-repeat: no-repeat;8FABC1
+    background-size: cover; */
+    box-shadow: 2px 2px 12px rgba(165, 42, 42, 0.481);
+    border-radius: 12px;
+    overflow-y: scroll;
+}
+.mainHead{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid var(--lightColor); */
+    text-align: center;
+}
+.mainHead h2{
+    /* background-color: var(--ioColor); */
+    padding: 1.2rem ;
+    /* color: white; */
+    background: repeating-radial-gradient(circle farthest-side at bottom center, #008080 63%, #018d49 70%, #05b8f4 80%, #09273f 90%, #015d5d 100%);
+
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.mainBody{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column-reverse;
+}
+.productSection{
+    min-width: 90%;
+    
+    /* border: 2px solid yellow; */
+}
+.insertProduct{
+    width: 100%;
+    margin-top: 0.15rem;
+}
+.btn-product{
+    width: 100%;
+}
+
+
+/* *****************ComboBox******************* */
+.thicknessName{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.25rem;
+}
+.comboBoxPThickness{
+  position: relative;
+  width: 28%;
+  text-align: center;
+}
+.comboBoxPName{
+    position: relative;
+    width: 70%;
+}
+.combo-input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #cc831d;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+}
+.combo-list {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: none;
+  
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 10;
+}
+.combo-list li {
+  padding: 10px 15px;
+  list-style: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.combo-list li:hover {
+  background-color: #3498db;
+  color: white;
+}
+.show {
+  display: block;
+}
+
+/* ****************************************** */
+
+.calciBtnGrid{
+    width: 100%;
+    display: grid;
+    /* gap: 0.1rem; */
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.productSection,.calculator,.calFooter,.outputArea,.lftMainFooter{
+    margin: 0.25rem;
+    padding: 0.10rem;
+    /* background-color: var(--lightColor); */
+}
+.rgtMain,.lftMain{
+    width: 50%;
+    margin: 0.15rem;
+    padding: 0.10rem;
+    /* background-color: var(--ioColor); */
+}
+.mainHead,.mainBody{
+    padding: 0.30rem;
+    
+    /* background-color: var(--firstColor); */
+}
+.subBasicPart2{
+    display: grid;
+    grid-template-columns: 1fr 1.40fr 0.60fr 0.10fr;
+}
+
+.calFooter{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 1fr 1.4fr 0.6fr;
+}
+/* 
+.btn-Farma{
+    width: 13%;
+}
+.btn-hole{
+    width: 17%;
+}
+.btn-mold{
+    width: 20%;
+}
+.btn-insertSize{
+    width: 35%;
+}
+.btn-design{
+    width: 10%;
+} 
+*/
+/* ***************sutPart**************** */
+
+.sutPart{
+    margin: 0.5rem;
+    padding: 0.50rem;
+    border-radius: 12px;
+    background-color: var(--lightSutColor);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.calciSutBtnGrid{
+    width: 100%; 
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 0.45rem;
+}
+.calciSutBtnGrid:nth-child(2){
+    margin-top: 1.1rem;
+}
+.btn-Sut{
+    border-radius: 0.5rem;
+}
+.outputArea{
+    width: 98%;
+    min-height: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}                                       /*357*/
+
+@media screen and (min-width:840px) {
+    .mainBody{
+       flex-direction: row;
+    }
+    .outputArea{
+        min-height: 27.4rem;
+        overflow-y: scroll;
+    }
+    .mainFrame{ 
+        overflow-y: auto;
+        height: auto;
+    }   
+}
+@media screen and (max-width:840px){
+    .lftMain{
+        width: 100%;
+    }
+    .rgtMain{
+        width: 100%;
+        /* border: 3px solid yellowgreen; */
+    }
+}
+
+.btn-Sut img{
+    max-width: 1.8rem;
+    border-radius: 50%;
+}
+.btn-Sut{
+    padding: 0;
+    padding-top: 0.25rem;
+}
+
+.btnColorChange{
+    padding: 0.6rem 0.8rem;
+    background-color: rgb(142, 2, 2);
+}
+.btn-Farma,.btn-hole,.btn-mold,.btn-insertSize,.btn-design{
+    font-size: 10px;
+    font-weight: 800;
+}
+
+
+
+/* ***************MOLDING SECTION********************** */
+
+.btn-mold{
+    position: relative;
+}
+.moldDiv{
+    display: none;
+    position: absolute;
+    top: 28.4rem;
+    left: 0.5rem;
+    
+    background-color: rgb(193, 161, 249);
+    min-width: 8rem;
+    min-height: 18rem;
+    border: 2px solid rgb(121, 46, 251);
+    border-radius: 1rem;
+    box-shadow: 2px 2px 8px gray;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.showMolding{
+    display: flex;  
+}
+
+.subMold{
+    margin: 1rem;
+    padding: 0.8rem;
+    
+    /* border: 2px solid red; */
+}
+.sm{
+    padding: 0.8rem;
+    /* border: 1px solid red; */
+    background-color: blueviolet;
+    margin: 0.2rem;
+}
+.sm:active{
+    transform:scale(0.9);
+    transition: 100ms;
+}
+.moldDivDesign{
+    width: 12rem;
+    height: 12rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+.moldFigTopLeft{
+    clip-path: circle(100% at 100% 100%);
+}
+.moldFigTopRight{
+    clip-path: circle(100% at 0 100%);
+}
+.moldFigBottomRight{
+    clip-path: circle(100% at 0 0);
+}
+.moldFigBottomLeft{
+    clip-path: circle(100% at 100% 0);
+}
+
+.moldFigBottom{
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 100%, 0 100%);
+}
+.moldFigUp{
+    clip-path: polygon(0% 0%, 100% 0, 100% 75%, 50% 100%, 0 75%);
+}
+.moldFigLeft{
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+.moldFigRight{
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+.moldFig{
+    border: 2px solid black;
+    background-color: #ffe6a7;
+    
+}
+.eadgeM{
+    background-color: gray;
+    pointer-events: none;
+}
+.moldDivMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.moldMenu{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0.5rem;
+    width: 100%;
+    /* border: 1px solid #cc831d; */
+}
+.moldMenuBtn{
+    width: 45%;
+    padding: 0.4rem 0.7rem;
+    background-color: rgb(193, 161, 249);
+    border-radius: 8px;
+}
+.moldMenuBtn:hover{
+    background-color: blueviolet;
+}
+.moldMenu img{
+    width: 3rem;
+    margin-left: 1rem;
+    margin-right: 0.25rem;
+    transform: scaleX(-1);
+}
+
+
+.moldDivFooter{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+/* ************ MOLDING SECTION END ******************** */
+
+/* ************ DESIGNING SECTION ********************** */
+
+.btn-design{
+    position: relative;
+}
+
+.designDiv{
+    position:absolute;
+    background-image: url(./image/designBackgroundImg.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid #005289;
+    border-radius: 14px 6px 14px 14px;
+    box-shadow: 2px 2px 8px gray;
+    
+    top: 28.4rem; right: 0.8rem;
+    width: 15rem; height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s; /* Smooth transition */
+}
+.designCategoryDiv{
+    width: 100%;
+    min-height: 5rem;
+    background-color: #3498dba9;
+    border: 2px solid #0287e0;
+    border-radius: 11px 5px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.designCategoryDiv ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* gap: 0.5rem; */
+    list-style-type: none; /* Remove default bullet */
+    /* background-color: wheat;  */
+}
+.designCategoryDiv ul li{
+    color: rgb(79, 8, 8);
+    margin: 0.15rem;
+    padding: 0.5rem;
+    border: 1px dashed black;
+    border-radius: 8px;
+}
+.selecteddesignCategory{
+    background-color: rgb(175, 251, 250);
+    border: 1px solid black!important;
+    color: #0182ad;
+}
+
+
+.btnDesignSample{
+    margin: 0.5rem 0.5rem 0;
+    padding: 0.25rem;
+    border-radius: 14px;
+}
+#designUpload{
+    background-color: #ffe6a765;
+    padding: 1rem;
+    color: rgb(3, 14, 223);
+    border: 2px solid #f6d47ed1;
+}
+#btnDesignSubmit{
+    border-radius:2px 2px 12px 12px;
+}
+.showdesign {
+    opacity: 1;
+    pointer-events: auto;
+}
+/* ************ DESIGNING SECTION END ****************** */
+
+/* ************ HOLE & NOTCH SECTION ********************** */
+
+.btn-hole{
+    position: relative;
+}
+
+.holeNbookingSection{
+    display: none;
+    position: absolute;
+    top: 70%;
+    height: auto;
+    width: 400px;
+    padding: 0.5rem;
+    /* display: flex; */
+    flex-direction: column;
+    border: 3px solid rgb(0, 18, 69);
+    border-radius: 8px; 
+    box-shadow: 2px 2px 10px ghostwhite;
+    z-index: 1;
+
+    background-image: url(./image/holeImgFolder/holehinchnotch2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.showDiv{
+    display: flex;
+    opacity: 1;
+}
+
+.hNbSectionMain{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.25rem;
+}
+.hNbSectionFooter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    margin: 2px;
+    gap: 1rem;
+}
+.hNbSelectBtn,.hNbCancelBtn{
+    width: 100%;
+    
+}
+.holeSection,.notchSection{
+    width: 50%;
+    box-shadow: 1px 1px 4px black;
+    border-radius: 8px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;    
+}
+.notchSection img{
+    border-bottom: 3px solid rgba(128, 128, 128, 0.766);
+}
+
+.holeSection img,.notchSection img{
+    width: 120px;
+    height: 90px;
+}
+
+.holeSectionHeader,.notchSectionHeader{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0.25rem;
+}
+.holeSectionHeader span,.notchSectionHeader span{
+    font-weight: 600;
+}
+.holeSectionMain,.notchSectionMain{
+    align-items: center;
+}
+.holeSectionSubMain,.notchSectionSubMain{
+    background-color:rgba(53, 174, 250, 0.471);
+    margin: 0.35rem 0.25rem;
+    padding: 0.25rem;
+    display: flex;
+    flex-direction: column;
+}
+.numHole,.numNotch{
+    width: 25%;
+}
+.hNnEnterbtn{
+    padding: 0 0.30rem;
+}
+.holeSizeSection{
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.sizeVal{
+    background-color: wheat;
+    border-radius: 50%;
+    padding: 2px 6px;
+}
+.sizeValActive {
+    background-color: orange;
+}
+.tooltiptext{
+    visibility: hidden;
+    width: 90px;
+    background-color: rgba(0, 0, 0, 0.701);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+  /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+.sizeVal:hover .tooltiptext {
+  visibility: visible;
+}
+.holePosSection{
+    padding: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    
+}
+.holePosHeading,.holeSizeHeading{
+    text-align: left;
+    font-weight: 600;
+}
+.holePosTitle{
+    display: flex;
+    flex-direction: column;
+}
+.holePosDescSpan{
+    font-size: small;
+}
+.holePosMain{
+    padding: 0.12rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.25rem;
+}
+
+.txtPosMain{
+    width: 20%;   
+}
+.notchSectionSubMainPart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.10rem;
+    padding: 0.05rem 0.20rem;
+    /* border: 1px solid red; */
+}
+.notchSectionSubMainPart span{
+    font-weight: 600; 
+}
+.txtNotch{
+    width: 40%;
+}
+.txtPosMain, .txtNotch{
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.516);
+    border: none;
+}
+
+/* ************ HOLE & NOTCH SECTION END ****************** */

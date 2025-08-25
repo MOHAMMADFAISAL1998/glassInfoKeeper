@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="colorPalette.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="outputStyle.css">
+
+</head>
+
+<body>
+    <div class="mainFrame">
+        <!-- voilet -->
+        <div class="mainHead">
+            <!-- blue -->
+            <h2>Order Keeper</h2>
+        </div>
+        <div class="mainBody">
+            <!-- blue -->
+            <div class="lftMain">
+                <!-- LightGreen -->
+                <div class="outputArea" id="outputArea">
+                    
+                </div>
+                <div class="lftMainFooter">
+                    <div class="screen">
+                        <input type="text" name="phone" id="phoneNumber" class="txtBox"
+                            placeholder="+91-XXX XXXX XXX" />
+                    </div>
+                    <div class="flex subBasicPart1">
+                        <!-- Yellow -->
+                        <button class="btn btn-Print">Print</button>
+                        <button class="btn btn-Send">Send</button>
+                    </div>
+                </div>
+            </div>
+            <div class="rgtMain">
+                <!-- LightGreen -->
+                <div class="productSection">
+                    <div class="ThicknessName flex">
+
+                        <div class="comboBoxPThickness">
+                            <input type="text" readonly placeholder="Select MM" class="combo-input" id="pThickness" />
+                            <ul class="combo-list" id="pThicknessList">
+                                
+                            </ul>
+                        </div>
+
+                        <div class="comboBoxPName">
+                            <input type="text" readonly placeholder="Select Product Name" class="combo-input" id="pName" />
+                            <ul class="combo-list" id="pNameList">
+                                
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="insertProduct">
+                        <button class="btn btn-product" id="btnProduct">Insert Product</button>
+                    </div>
+                </div>
+
+                <div class="screen">
+                    <input type="text" name="screen" id="calScr" class="txtBox" placeholder="0" />
+                </div>
+                <div class="calculator">
+                    <div class="basicPart">
+                        <div class="flex subBasicPart1">
+                            <!-- Yellow -->
+                            <button type="reset" class="btn btn-Clear" id="btnClear">
+                                Clear
+                            </button>
+                            <button class="btn btn-Backspace" id="btnBackspace">
+                                Bksps
+                            </button>
+                        </div>
+                        <div class="calciBtnGrid" id="calciGrid">
+                            <button class="btn btn-calci">7</button>
+                            <button class="btn btn-calci">8</button>
+                            <button class="btn btn-calci">9</button>
+                            <button class="btn btn-calci">4</button>
+                            <button class="btn btn-calci">5</button>
+                            <button class="btn btn-calci">6</button>
+                            <button class="btn btn-calci">1</button>
+                            <button class="btn btn-calci">2</button>
+                            <button class="btn btn-calci">3</button>
+                        </div>
+                        <div class="subBasicPart2">
+                            <!-- Yellow -->
+                            <button class="btn btn-Cross" id="btnCross">X</button>
+                            <button class="btn btn-Zero" id="btnZero">0</button>
+                            <button class="btn btn-Equal" id="btnEqual">=</button>
+                            <button class="btn btn-sutPartToggle" id="sutPartToggleBtn">
+                                <b>V</b>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="sutPart" id="sutGrp">
+                        <div class="calciSutBtnGrid">
+                            <button class="btn btn-Sut" value="/8">
+                                <img src="image/Sut.png" alt="sutImg" />
+                            </button>
+                            <button class="btn btn-Sut" value=" 1/8">
+                                <img src="image/oneSut.png" alt="oneSut" />
+                            </button>
+                            <button class="btn btn-Sut" value=" 2/8">
+                                <img src="image/twoSut.png" alt="twoSut" />
+                            </button>
+                            <button class="btn btn-Sut" value=" 3/8">
+                                <img src="image/threeSut.png" alt="threeSut" />
+                            </button>
+                            <button class="btn btn-Sut" value=" 4/8">
+                                <img src="image/fourSut.png" alt="fourSut" />
+                            </button>
+                            <button class="btn btn-Sut" value=" 5/8">
+                                <img src="image/fiveSut.png" alt="fiveSut" />
+                            </button>
+                            <button class="btn btn-Sut" value=" 6/8">
+                                <img src="image/sixSut.png" alt="sixSut" />
+                            </button>
+                            <button class="btn btn-Sut" value=" 7/8">
+                                <img src="image/sevenSut.png" alt="sevenSut" />
+                            </button>
+                        </div>
+                        <div class="calciSutBtnGrid">
+                            <button class="btn btn-Sut" value=" (1/2)/8">
+                                <img src="image/halfSut.png" alt="halfSut" />
+                            </button>
+                            <button class="btn btn-Sut" value=" 1(1/2)/8">
+                                <img src="image/oneHalfSut.png" alt="oneHalfSut" />
+                            </button>
+                            <button class="btn btn-Sut" value=" 2(1/2)/8">
+                                <img src="image/twoHalfSut.png" alt="twoHalfSut" />
+                            </button>
+                            <button class="btn btn-Sut" value=" 3(1/2)/8">
+                                <img src="image/threeHalfSut.png" alt="threeHalfSut" />
+                            </button>
+                            <button class="btn btn-Sut" value=" 4(1/2)/8">
+                                <img src="image/fourHalfSut.png" alt="fourHalfSut" />
+                            </button>
+                            <button class="btn btn-Sut" value=" 5(1/2)/8">
+                                <img src="image/fiveHalfSut.png" alt="fiveHalfSut" />
+                            </button>
+                            <button class="btn btn-Sut" value=" 6(1/2)/8">
+                                <img src="image/sixHalfSut.png" alt="sixHalfSut" />
+                            </button>
+                            <button class="btn btn-Sut" value=" 7(1/2)/8">
+                                <img src="image/sevenHalfSut.png" alt="sevenHalfSut" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex calFooter">
+                    <!-- Yellow -->
+                     <button class="btn btn-Farma" id="btnFarma">Farma</button>
+
+                     <button class="btn btn-hole" id="btnHole">Hole</button>
+
+                    <div class="holeNbookingSection">
+                        <div class="hNbSectionMain">
+                            <div class="holeSection">
+                                <div class="holeSectionImg">
+                                    <img src="image/holeImgFolder/Glass-with-Hole.png" alt="holeImg">
+                                </div>
+                                <div class="holeSectionHeader">
+                                    <span>No. of Hole:</span>
+                                    <input type="number" name="totalHoles" class="numHole" id="txtHole" min="0" />
+                                    <input type="button" value="&#8626;" class="hNnEnterbtn" id="holeInputBtn" />
+                                </div>
+                                <div class="holeSectionMain">
+                                    
+                                    <!-- Value Come in Runtime -->
+                                    
+                                </div>
+                            </div>
+                            <div class="notchSection">
+                                <div class="notchSectionImg">
+                                    <img src="image/holeImgFolder/notch.png" alt="notchImg">
+                                </div>
+                                <div class="notchSectionHeader">
+                                    <span>No. of Notch:</span>
+                                    <input type="number" name="totalNotch" class="numNotch" id="txtNotch" min="0" />
+                                    <input type="button" value="&#8626;" class="hNnEnterbtn" id="notchInputBtn" />
+                                </div>
+                                <div class="notchSectionMain">
+                                    
+                                        <!-- Value Come in Runtime -->
+                                    
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="hNbSectionFooter">
+                            <input type="button" value="Select" class="btn hNbSelectBtn">
+                            <input type="button" value="Cancel" class="btn hNbCancelBtn">
+                        </div>
+                    </div>
+
+
+                    <button class="btn btn-mold" id="btnMold">Molding</button>
+                    <div class="moldDiv" id="moldSection">
+                            <div class="subMold moldDivDesign">
+                                <div class="sm moldFigTopLeft" value="topLeft"></div>
+                                <div class="sm moldFigUp eadgeM" value="top"></div>
+                                <div class="sm moldFigTopRight" value="topRight"></div>
+                                <div class="sm moldFigLeft eadgeM" value="left"></div>
+                                <div class="sm moldFig" value="mainFig"></div>
+                                <div class="sm moldFigRight eadgeM" value="right"></div>
+                                <div class="sm moldFigBottomLeft" value="bottomLeft"></div>
+                                <div class="sm moldFigBottom eadgeM" value="bottom"></div>
+                                <div class="sm moldFigBottomRight" value="bottomRight"></div>
+                            </div>
+                            <div class="subMold moldDivMenu">
+                                <div class="moldMenu">
+                                    <img src="image/holeImgFolder/flat-edge.png" alt="mpImg">
+                                    <input type="button" value="Dhar Polish" class="moldMenuBtn">
+                                    <img src="image/holeImgFolder/bullnose.png" alt="hpencilImg">
+                                    <input type="button" value="Half Pencil" class="moldMenuBtn">
+                                </div>
+                                <div class="moldMenu">
+                                    <img src="image/holeImgFolder/pencil-edge.png" alt="pencilImg">
+                                    <input type="button" value="Full Pencil" class="moldMenuBtn">
+                                    <img src="image/holeImgFolder/bevel.png" alt="wavingImg">
+                                    <input type="button" value="Wavling" class="moldMenuBtn">
+                                </div>
+                            </div>
+                            <div class="subMold moldDivFooter">
+                                <input type="button" class="btn moldSelect" value="Select">
+                                <input type="button" class="btn moldCancel" value="Cancel">
+                            </div>
+                        </div>
+
+                    <button class="btn btn-insertSize" id="sizeInsBtn">
+                        Insert Size
+                    </button>
+
+                    <button class="btn btn-design">Design</button>
+                    <div class="designDiv" id="designSection">
+                            <div class="designCategoryDiv">
+                                <ul>
+                                    <li class="designCat">Iching</li>
+                                    <li class="designCat">Texture</li>
+                                    <li class="designCat">Acid Dip</li>
+                                    <li class="designCat">Color</li>
+                                    <li class="designCat">Whiting</li>
+                                    <li class="designCat">Liqour</li>
+                                    
+                                </ul>
+                            </div>
+                            <input type="button" value="Sample" class="btnDesignSample ">
+                            <input type="file" name="designUpload" id="designUpload" multiple>
+                            <input type="button" value="Submit" class="btn" id="btnDesignSubmit">
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="productComboBox.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

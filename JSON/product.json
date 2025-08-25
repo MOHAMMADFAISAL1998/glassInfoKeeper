@@ -1,0 +1,261 @@
+[
+  {
+    "Sr.No.": 1,
+    "iThickness": 2,
+    "iName": "Plane Glass",
+    "iRate": 0
+  },
+  {
+    "Sr.No.": 2,
+    "iThickness": 3,
+    "iName": "Plane Glass",
+    "iRate": 33
+  },
+  {
+    "Sr.No.": 3,
+    "iThickness": 3,
+    "iName": "Mirror",
+    "iRate": 52
+  },
+  {
+    "Sr.No.": 4,
+    "iThickness": 3.5,
+    "iName": "MG Mirror",
+    "iRate": 68.5
+  },
+  {
+    "Sr.No.": 5,
+    "iThickness": 3.5,
+    "iName": "Blue Reflective",
+    "iRate": 42
+  },
+  {
+    "Sr.No.": 6,
+    "iThickness": 3.5,
+    "iName": "Blue Reflective Frosted Glass(9013)",
+    "iRate": 52
+  },
+  {
+    "Sr.No.": 7,
+    "iThickness": 3.5,
+    "iName": "Blue Reflective Frosted Glass(9015)",
+    "iRate": 0
+  },
+  {
+    "Sr.No.": 8,
+    "iThickness": 3.5,
+    "iName": "Black Reflective Glass",
+    "iRate": 44
+  },
+  {
+    "Sr.No.": 9,
+    "iThickness": 3.5,
+    "iName": "White Swastik Glass",
+    "iRate": 38
+  },
+  {
+    "Sr.No.": 10,
+    "iThickness": 3.5,
+    "iName": "White Diamond Glass",
+    "iRate": 38
+  },
+  {
+    "Sr.No.": 11,
+    "iThickness": 3.5,
+    "iName": "White Kalakachi Glass",
+    "iRate": 0
+  },
+  {
+    "Sr.No.": 12,
+    "iThickness": 3.5,
+    "iName": "White Tulip Glass",
+    "iRate": 38
+  },
+  {
+    "Sr.No.": 13,
+    "iThickness": 3.5,
+    "iName": "Black Swastik Glass",
+    "iRate": 42
+  },
+  {
+    "Sr.No.": 14,
+    "iThickness": 3.5,
+    "iName": "Black Diamond Glass",
+    "iRate": 42
+  },
+  {
+    "Sr.No.": 15,
+    "iThickness": 3.5,
+    "iName": "Black Kalakachi Glass",
+    "iRate": 40
+  },
+  {
+    "Sr.No.": 16,
+    "iThickness": 4,
+    "iName": "Plane Glass",
+    "iRate": 42
+  },
+  {
+    "Sr.No.": 17,
+    "iThickness": 4.5,
+    "iName": "White Swastik Glass",
+    "iRate": 0
+  },
+  {
+    "Sr.No.": 18,
+    "iThickness": 4.5,
+    "iName": "White Diamond Glass",
+    "iRate": 48
+  },
+  {
+    "Sr.No.": 19,
+    "iThickness": 4.5,
+    "iName": "White Kalakachi Glass",
+    "iRate": 50
+  },
+  {
+    "Sr.No.": 20,
+    "iThickness": 4.5,
+    "iName": "White Tulip Glass",
+    "iRate": 0
+  },
+  {
+    "Sr.No.": 21,
+    "iThickness": 4.5,
+    "iName": "Black Swastik Glass",
+    "iRate": 54
+  },
+  {
+    "Sr.No.": 22,
+    "iThickness": 4.5,
+    "iName": "Black Diamond Glass",
+    "iRate": 54
+  },
+  {
+    "Sr.No.": 23,
+    "iThickness": 4.5,
+    "iName": "Black Kalakachi Glass",
+    "iRate": 55
+  },
+  {
+    "Sr.No.": 24,
+    "iThickness": 5,
+    "iName": "Plane Glass",
+    "iRate": 52
+  },
+  {
+    "Sr.No.": 25,
+    "iThickness": 5,
+    "iName": "SG Mirror",
+    "iRate": 100
+  },
+  {
+    "Sr.No.": 26,
+    "iThickness": 5,
+    "iName": "MG Mirror",
+    "iRate": 95
+  },
+  {
+    "Sr.No.": 27,
+    "iThickness": 5,
+    "iName": "Imp. Mirror",
+    "iRate": 75
+  },
+  {
+    "Sr.No.": 28,
+    "iThickness": 5,
+    "iName": "Golden Bronze Mirror",
+    "iRate": 126,
+    "__EMPTY": 138
+  },
+  {
+    "Sr.No.": 29,
+    "iThickness": 5,
+    "iName": "Blue Reflective Glass",
+    "iRate": 58
+  },
+  {
+    "Sr.No.": 30,
+    "iThickness": 5,
+    "iName": "Blue Reflective Frosted Glass(9013)",
+    "iRate": 0
+  },
+  {
+    "Sr.No.": 31,
+    "iThickness": 5,
+    "iName": "Blue Reflective Frosted Glass(9015)",
+    "iRate": 0
+  },
+  {
+    "Sr.No.": 32,
+    "iThickness": 5,
+    "iName": "Black Reflective Glass",
+    "iRate": 62
+  },
+  {
+    "Sr.No.": 33,
+    "iThickness": 5,
+    "iName": "Green Reflective Glass",
+    "iRate": 78
+  },
+  {
+    "Sr.No.": 34,
+    "iThickness": 5,
+    "iName": "Brown Reflective Frosted Glass(9015)",
+    "iRate": 0
+  },
+  {
+    "Sr.No.": 35,
+    "iThickness": 5,
+    "iName": "Black Tinted Glass",
+    "iRate": 60
+  },
+  {
+    "Sr.No.": 36,
+    "iThickness": 5,
+    "iName": "Pinhead Glass",
+    "iRate": 43
+  },
+  {
+    "Sr.No.": 37,
+    "iThickness": 5,
+    "iName": "Frosted Glass",
+    "iRate": 64
+  },
+  {
+    "Sr.No.": 38,
+    "iThickness": 6,
+    "iName": "Plane Glass",
+    "iRate": 62
+  },
+  {
+    "Sr.No.": 39,
+    "iThickness": 8,
+    "iName": "Plane Glass",
+    "iRate": 85
+  },
+  {
+    "Sr.No.": 40,
+    "iThickness": 8,
+    "iName": "Black Tinted Glass",
+    "iRate": 96
+  },
+  {
+    "Sr.No.": 41,
+    "iThickness": 8,
+    "iName": "Brown Tinted Glass",
+    "iRate": 105
+  },
+  {
+    "Sr.No.": 42,
+    "iThickness": 10,
+    "iName": "Plane Glass",
+    "iRate": 110
+  },
+  {
+    "Sr.No.": 43,
+    "iThickness": 12,
+    "iName": "Plane Glass",
+    "iRate": 127
+  }
+]

@@ -1,0 +1,13 @@
+:root{
+    --bkColor:radial-gradient(circle,rgba(12, 245, 237, 1) 42%, rgba(8, 16, 252, 1) 100%);
+    --blackColor:rgb(22, 22, 22);
+    --whiteColor:rgb(231, 251, 249);
+    --transparentColor: rgba(255, 255, 255, 0.2);
+
+    --lightColor:#ffe6a7;
+    --lightSutColor:#bb9457;
+    --ioColor:rgba(12, 245, 237, 1);
+    --firstColor:#99582a;
+       
+}
+
